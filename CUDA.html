@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>CUDA</title></head><body style="color: rgb(0, 0, 0); background-color: rgb(0, 153, 0);" alink="#000099" link="#000099" vlink="#990099">
+<div style="text-align: center; font-family: Bahnschrift;">
+<h5 style="font-weight: bold;"><big><big><big><big>Como funciona el nucleo CUDA?</big></big></big></big></h5>
+<br>
+<br>
+<div style="text-align: left;"><span style="font-weight: bold;"><big>Arquitectura de procesamiento paralelo:</big> </span>Los
+núcleos CUDA se basan en una arquitectura de procesamiento paralelo, lo
+que significa que pueden ejecutar múltiples operaciones
+simultáneamente. Cada núcleo CUDA puede realizar operaciones
+matemáticas y lógicas de manera independiente, lo que permite un alto
+grado de paralelismo en el procesamiento de dato<span style="font-weight: bold;">s.</span><br>
+<div style="text-align: center;"><img style="width: 395px; height: 222px;" alt="cuda1" title="cuda1" src="file:///E:/pagina%20web/cuda%201.jpg"><br>
+<div style="text-align: left;"><big><span style="font-weight: bold;">Unidades de procesamiento de streaming (SM):</span></big>
+Los núcleos CUDA se agrupan en unidades de procesamiento de streaming
+(SM), que son los bloques fundamentales de procesamiento en una GPU
+NVIDIA. Cada SM contiene varios núcleos CUDA, junto con otros
+componentes como registros, caché y unidades de carga/almacenamiento.<br>
+<div style="text-align: center;"><img style="width: 399px; height: 225px;" alt="CUDA2" src="file:///E:/pagina%20web/cudA2.jpg"><br>
+<div style="text-align: left;"><big><span style="font-weight: bold;">Threads y warps: </span></big>En
+el contexto de CUDA, un thread es una secuencia de instrucciones que se
+ejecuta en un núcleo CUDA. Los threads se agrupan en warps, que son
+grupos de threads que se ejecutan simultáneamente en un SM. Esta
+organización en threads y warps permite aprovechar al máximo la
+capacidad de procesamiento paralelo de la GPU.<br>
+<div style="text-align: center;"><img style="width: 625px; height: 203px;" alt="CUDA3" src="file:///E:/pagina%20web/CUDA3.png"><br>
+<div style="text-align: left;"><big><span style="font-weight: bold;">Modelo de programación CUDA:</span></big>
+Para utilizar los núcleos CUDA, los desarrolladores escriben programas
+en lenguaje CUDA, que es una extensión del lenguaje de programación
+C/C++. Estos programas están diseñados para ejecutar operaciones en
+paralelo en la GPU, aprovechando al máximo la capacidad de
+procesamiento de los núcleos CUDA.<br>
+<div style="text-align: center;"><img style="width: 779px; height: 397px;" alt="CUDA4" src="file:///E:/pagina%20web/CUDA4.png"><br>
+<div style="text-align: left;"><big><span style="font-weight: bold;">Memoria compartida y global: </span></big>Los
+núcleos CUDA tienen acceso a diferentes tipos de memoria en la GPU,
+incluyendo memoria compartida y memoria global. La memoria compartida
+se comparte entre los threads de un mismo bloque, lo que permite una
+comunicación rápida y eficiente entre ellos. La memoria global es
+accesible por todos los threads en la GPU y se utiliza para almacenar
+datos que deben ser compartidos entre diferentes bloques o threads.<br>
+<div style="text-align: center;"><img style="width: 623px; height: 388px;" alt="CUDA5" src="file:///E:/pagina%20web/CUDA5.jpg"><br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+En resumen, los núcleos CUDA son los componentes fundamentales que
+permiten la aceleración de tareas de procesamiento paralelo en las
+tarjetas gráficas NVIDIA. Su capacidad para ejecutar múltiples
+operaciones simultáneamente y su arquitectura de procesamiento paralelo
+los hacen ideales para aplicaciones que requieren un alto rendimiento
+computacional, como el aprendizaje profundo, la simulación física y el
+procesamiento de imágenes.<br>
+<br>
+<a href="NVIDIA%20PAGINA.html"><br>
+VOLVER A LA PAGINA PRINCIAL</a><br>
+<big>
+
+</big></div>
+</body></html>
